@@ -4,6 +4,9 @@ This sample Heroku app uses [the Apt buildpack](https://elements.heroku.com/buil
 
 This approach can be used, for example, to spin a one-off dyno and use `valkey-cli` to connect to a Heroku Key-Value store or other Valkey/Redis-compatible add-on.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/iriberri/heroku-valkey-cli-app)
+
+
 ## Usage
 
 1. Deploy the app 
