@@ -2,5 +2,10 @@
   "name": Valkey-CLI sample app",
   "description": "A basic Heroku app that installs valkey-cli for Heroku Key-Value store access via CLI from dynos",
   "repository": "https://github.com/iriberri/heroku-valkey-cli-app",
-  "keywords": ["valkey"]
+  "keywords": ["valkey"],
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    }
+  ],
 }
